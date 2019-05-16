@@ -1,0 +1,35 @@
+div{
+  font-family: 'Rambla';
+}
+.container{
+  top: 126px
+}
+.center-text{
+  font-family: 'Rambla';
+  position: absolute;
+  margin-top: 0px;
+  top: 80px;
+}
+.universe{
+  font-size: 36px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  position: relative;
+  left: 605px;
+}
+.collection{
+  font-size: 64px;
+  position: relative;
+  margin-top: 0px;
+  left: 574px;
+}
+
+/*.vertical-bar {*/
+  /*border-left: 1px solid green;*/
+  /*height: 20px;*/
+  /*!*margin-left: 594px;*!*/
+  /*!*top: 180px;*!*/
+
+/*}*/
+
+

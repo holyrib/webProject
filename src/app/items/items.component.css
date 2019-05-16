@@ -1,0 +1,70 @@
+p{
+  font-family: Scada;
+  font-size: 24px;
+  text-align: center;
+  margin: 0px;
+}
+
+img{
+  height: 320px;
+  width: 320px;
+  object-fit: cover;
+  margin-left: 40px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.left {
+  display: inline-block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #9A73ED;
+  margin-left: 82px;
+  padding: 0;
+  width: 470px;
+  margin-bottom: 60px;
+}
+.right{
+  display: inline-block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #9A73ED;
+  padding: 0;
+  width: 470px;
+  margin-bottom: 60px;
+  margin-right: 102px;
+  margin-left: 16px;
+}
+
+.container{
+  margin-top: 30px;
+  margin-left: 130px;
+}
+
+.description{
+  margin-left: 43px;
+  display: inline-block;
+}
+
+.shop-tab{
+  color: #9A73ED;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.secondrow{
+  margin-top: 30px;
+}
+.shop-tabs{
+  margin-left: 574px;
+  margin-top: 155px;
+  display: flex;
+  margin-bottom: 15px;
+}
+.shop-tabs p{
+  font-family: Rambla;
+  font-size: 24px;
+  margin-right: 23px;
+}

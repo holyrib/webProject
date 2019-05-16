@@ -1,0 +1,39 @@
+.navbar{
+  height: 60px;
+  margin-top: 25px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+button{
+  background: transparent;
+  border: none;
+
+}
+
+p{
+  display: inline;
+  margin-left: auto;
+  margin-right: 30px;
+  font-family: "Rambla";
+  font-size: 24px;
+
+}
+
+.logo{
+  position: absolute;
+  left: 654px;
+  margin-top: 0px;
+}
+
+.navbar .right{
+  float:right;
+  margin-top: 0;
+}
+
+

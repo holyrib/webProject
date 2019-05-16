@@ -1,0 +1,97 @@
+hr{
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #9A73ED;
+  padding: 0;
+  margin: 0px;
+  width: 1130px;
+  margin-bottom: 10px;
+}
+
+table{
+  font-family: Scada;
+  border-collapse: collapse;
+  width: 1130px;
+}
+th {
+  font-size: 36px;
+  font-weight: normal;
+  color: #9A73ED;
+  text-align: left;
+  padding-left: 40px;
+
+}
+th, td {
+  word-wrap:break-word;
+  border-bottom: 2px solid #9A73ED;
+}
+
+img{
+  height: 220px;
+  width: 220px;
+  object-fit: cover;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+td{
+  border-collapse: collapse;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+p{
+  margin-top: 0px;
+}
+
+/*img{*/
+  /*height: 220px;*/
+  /*width: 220px;*/
+  /*object-fit: cover;*/
+  /*margin-left: 40px;*/
+/*}*/
+
+.container{
+  margin-left: 143px;
+}
+
+.header{
+  margin-bottom: 10px;
+  font-family: Rambla;
+  font-size: 36px;
+  color: #9A73ED;
+}
+
+.first{
+  padding-left: 0px;
+  padding-right: 100px;
+}
+
+
+.description{
+  display: table-cell;
+  padding-left: 90px;
+  vertical-align: middle;
+  margin-top: 80px;
+}
+
+.content{
+  display: flex;
+}
+
+.btn{
+  width: 155px;
+  height: 50px;
+  float: right;
+  background: #9A73ED;
+  color: white;
+  font-family: Scada;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  margin-right: 145px;
+  margin-top: 30px;
+}

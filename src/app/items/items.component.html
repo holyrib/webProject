@@ -1,0 +1,43 @@
+<div class="shop-tabs">
+  <a href="#" (click)="setShoptab('planet')">
+    <p>planet</p>
+  </a>
+  <div class="vertical-bar"></div>
+  <a href="#" (click)="setShoptab('galaxy')">
+    <p>galaxy</p>
+  </a>
+  <a href="#" (click)="setShoptab('meteor')">
+    <p>meteor</p>
+  </a>
+</div>
+<div class="middleblock">
+  <hr class="left">
+
+  <div class="description">
+    <p class="shop-tab">{{shoptab}}</p>
+    <p> {{shoptabDescription[0]}}</p>
+    <p> {{shoptab + ' ' +shoptabDescription[1]}}</p>
+    <p> {{shoptabDescription[2]}}</p>
+  </div>
+
+    <hr class="right">
+</div>
+
+
+<div class="container">
+  <div class="firstrow">
+    <img [src]='"assets/images/"+shoptab+"1.jpg"' class="firstrow">
+    <img [src]='"assets/images/"+shoptab+"2.jpg"' class="firstrow">
+    <img [src]='"assets/images/"+shoptab+"3.jpg"' class="firstrow">
+  </div>
+  <div class="secondrow">
+    <img [src]='"assets/images/"+shoptab+"4.jpg"' class="secondrow">
+    <img [src]='"assets/images/"+shoptab+"5.jpg"' class="secondrow>">
+    <img [src]='"assets/images/"+shoptab+"6.jpg"' class="secondrow>">
+  </div>
+  <div class="secondrow">
+    <img src={{item.image_url}} class="secondrow">
+    <img [src]='"assets/images/"+shoptab+"5.jpg"' class="secondrow>">
+    <img [src]='"assets/images/"+shoptab+"6.jpg"' class="secondrow>">
+  </div>
+</div>
